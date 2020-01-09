@@ -1,0 +1,103 @@
+#ingredient{
+  overflow: auto;  
+  height: 350px;
+  width: 550px;
+  background-color: rgb(247, 3, 3);
+  text-align: left;
+}
+#recipe{
+  font-family: sans-serif;
+  overflow: auto;  
+  height: 130px;
+  width: 550px;
+  background-color: rgb(247, 3, 3);
+  text-align: center;
+}
+
+h1, p {
+  font-family: sans-serif;
+}
+h1{
+  text-align: center;
+}
+
+img{
+  height: 350px;
+  width: 350px;
+  border:4px solid rgb(198, 240, 10);
+  margin-top: 70px;
+  margin-left: 35px;
+  margin-bottom: 0px;
+}
+#description{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(12, 179, 245);
+}
+#header button{
+  width: 100px;
+  border: 3px solid rgb(132, 90, 172);
+  border-radius: 4px;
+  font-size: 13px;
+  font-weight: bold;
+  color: rgb(99, 64, 133);
+  background: transparent;
+}
+#main{
+  color:rgb(240, 138, 138);
+}
+
+#heart{
+  float: right;
+  font-size: 30px;
+  padding: 20px 20px 0px 0px;
+  color: rgb(250, 6, 6);
+  cursor: pointer;
+}
+#parent{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#container{
+  width: 90%;
+  height: 80%;
+}
+input{
+  text-align: center;
+  align-content: center;
+  border-radius: 7px;
+  height: 35px;
+  width: 210px;
+}
+button{
+  padding: 10px 0px;
+  margin-left: 35px;
+}
+
+h2{
+  font-family: sans-serif;
+  
+}
+body{
+  background-color: rgb(6, 190, 37);
+}
+
+#head{
+  color: rgb(160, 19, 26);
+  font-weight: 5;
+}
+#header input{
+  font-size: 16px;
+  border: 3px solid rgb(96, 1, 185);
+}
+
+#header1{
+  height: 70px;
+  background-color: whitesmoke;
+  color: rgb(124, 89, 114);
+  font-family: Gill Sans MT;
+  display: flex;
+  justify-content: space-between;
+}
